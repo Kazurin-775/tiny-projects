@@ -1,0 +1,9 @@
+[package]
+name = "tree-archiver"
+version = "0.1.0"
+authors = ["Kazurin Nanako"]
+edition = "2018"
+
+[dependencies]
+zip = "0.5.9"
+chrono = "0.4.19"
