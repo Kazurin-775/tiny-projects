@@ -1,0 +1,8 @@
+[package]
+name = "jetbrains-data-redir"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+configparser = "3.0.0"
+dunce = "1.0.2"

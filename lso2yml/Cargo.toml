@@ -1,0 +1,11 @@
+[package]
+name = "lso2yml"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+flash-lso = { git = "https://github.com/ruffle-rs/rust-flash-lso.git", features = [
+    "serde",
+] }
+serde = "1.0.137"
+serde_yaml = "0.8.24"
