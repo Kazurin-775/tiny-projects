@@ -1,0 +1,11 @@
+[package]
+name = "jsc-decrypt"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+env_logger = "0.10.0"
+flate2 = "1.0.25"
+log = "0.4.17"
+structopt = "0.3.26"
+xxtea = "0.2.0"
